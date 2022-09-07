@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20220907-1247-Experimental"
+	Name="liuji"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.3.0"
+	OSName="Linux"
+	Hostname="liuji"
+	OSRelease="5.10.60.1-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Wed Aug 25 23:20:18 UTC 2021"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="96"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="7658"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2894.56"
+	>
+	<Build>
+		<StartDateTime>Sep 07 20:47 CST</StartDateTime>
+		<StartBuildTime>1662554863</StartBuildTime>
+		<BuildCommand>/usr/bin/cmake --build . --config "Release"</BuildCommand>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>Sep 07 20:47 CST</EndDateTime>
+		<EndBuildTime>1662554863</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>
