@@ -1,6 +1,6 @@
-/home/liuji/cmake-3.24.1-tutorial-source/cmake-3.24.1-tutorial-source/Step2_build/CMakeFiles/rebuild_cache.dir
-/home/liuji/cmake-3.24.1-tutorial-source/cmake-3.24.1-tutorial-source/Step2_build/CMakeFiles/edit_cache.dir
-/home/liuji/cmake-3.24.1-tutorial-source/cmake-3.24.1-tutorial-source/Step2_build/CMakeFiles/Tutorial.dir
-/home/liuji/cmake-3.24.1-tutorial-source/cmake-3.24.1-tutorial-source/Step2_build/MathFunctions/CMakeFiles/rebuild_cache.dir
-/home/liuji/cmake-3.24.1-tutorial-source/cmake-3.24.1-tutorial-source/Step2_build/MathFunctions/CMakeFiles/edit_cache.dir
-/home/liuji/cmake-3.24.1-tutorial-source/cmake-3.24.1-tutorial-source/Step2_build/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/liuji/cmake_learn/Step2_build/CMakeFiles/Tutorial.dir
+/home/liuji/cmake_learn/Step2_build/CMakeFiles/edit_cache.dir
+/home/liuji/cmake_learn/Step2_build/CMakeFiles/rebuild_cache.dir
+/home/liuji/cmake_learn/Step2_build/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/liuji/cmake_learn/Step2_build/MathFunctions/CMakeFiles/edit_cache.dir
+/home/liuji/cmake_learn/Step2_build/MathFunctions/CMakeFiles/rebuild_cache.dir
