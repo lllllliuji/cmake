@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Tutorial.dir/tutorial.cxx.o -o Tutorial  -Wl,-rpath,/home/liuji/cmake_learn/Step12_build: libMathFunctions.so.1.0.0 

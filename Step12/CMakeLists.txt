@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.15)
 # set the project name and version
 project(Tutorial VERSION 1.0)
 
+set(CMAKE_DEBUG_POSTFIX d)
+
 add_library(tutorial_compiler_flags INTERFACE)
 target_compile_features(tutorial_compiler_flags INTERFACE cxx_std_11)
 
@@ -37,6 +39,8 @@ add_subdirectory(MathFunctions)
 
 # add the executable
 add_executable(Tutorial tutorial.cxx)
+set_target_properties(Tutorial PROPERTIES DEBUG_POSTFIX ${CMAKE_DEBUG_POSTFIX})
+
 target_link_libraries(Tutorial PUBLIC MathFunctions)
 
 # add the binary tree to the search path for include files
@@ -84,6 +88,7 @@ include(InstallRequiredSystemLibraries)
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
 set(CPACK_PACKAGE_VERSION_MAJOR "${Tutorial_VERSION_MAJOR}")
 set(CPACK_PACKAGE_VERSION_MINOR "${Tutorial_VERSION_MINOR}")
+set(CPACK_SOURCE_GENERATOR "TGZ")
 include(CPack)
 
 # install the configuration targets
@@ -107,10 +112,9 @@ write_basic_package_version_file(
   COMPATIBILITY AnyNewerVersion
 )
 
-# install the generated configuration files
+# install the configuration file
 install(FILES
   ${CMAKE_CURRENT_BINARY_DIR}/MathFunctionsConfig.cmake
-  ${CMAKE_CURRENT_BINARY_DIR}/MathFunctionsConfigVersion.cmake
   DESTINATION lib/cmake/MathFunctions
   )
 
