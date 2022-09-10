@@ -1,0 +1,6 @@
+/home/liuji/cmake-3.24.1-tutorial-source/build/CMakeFiles/Tutorial.dir
+/home/liuji/cmake-3.24.1-tutorial-source/build/CMakeFiles/edit_cache.dir
+/home/liuji/cmake-3.24.1-tutorial-source/build/CMakeFiles/rebuild_cache.dir
+/home/liuji/cmake-3.24.1-tutorial-source/build/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/liuji/cmake-3.24.1-tutorial-source/build/MathFunctions/CMakeFiles/edit_cache.dir
+/home/liuji/cmake-3.24.1-tutorial-source/build/MathFunctions/CMakeFiles/rebuild_cache.dir
